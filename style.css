@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    color: #f5f6f7;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.imgperfil {
+    border-radius: 50%;
+    width: 35%;
+}
+
+/* Botões */
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f5f6f7;
+    margin-top: 1em;
+    padding: 1em 3em;
+    border: 1.4px solid;
+    border-radius: 100em;
+    transition: all .2s;
+}
+
+.btn {
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 10em;
+    margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para telas com largura máxima de 768px */
+}
+
+@media (max-width: 480px) {
+    /* Estilos para telas com largura máxima de 480px */
+}
